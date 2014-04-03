@@ -3,13 +3,6 @@
 #include <blink.h>
 #include <taskManager.h>
 
-typedef enum {
-	APP_INIT_STATE,
-	APP_ROT_STATE,
-	APP_ROT_GELB_STATE,
-	APP_GRUEN_STATE,
-	APP_GELB_STATE
-} ampelstate_t;
 
 static HAL_AppTimer_t yellow_timer;
 static HAL_AppTimer_t orange_timer;
